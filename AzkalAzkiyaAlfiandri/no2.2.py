@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np #library
 
 def solve_equation(f_str, a, b, tolerance):
     x = sp.symbols('x')
@@ -21,7 +21,7 @@ def solve_equation(f_str, a, b, tolerance):
     else:
         return None
 
-# Input dari pengguna
+# Input dari user
 f_str = input("Masukkan fungsi f(x): ")
 a = float(input("Masukkan batas bawah akar: "))
 b = float(input("Masukkan batas atas akar: "))
