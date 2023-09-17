@@ -1,7 +1,7 @@
 # Fungsi yang akan dicari akarnya
 def user_input_function():
     x = symbols('x')
-    expression = input("Masukkan fungsi f(x) (gunakan x sebagai variabel): ")
+    expression = input("Masukkan fungsi f(x): ")
     try:
         f = eval(expression)
         return f
